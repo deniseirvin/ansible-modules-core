@@ -40,6 +40,9 @@ options:
       - List of capabilities to add to the container.
     default: null
     required: false
+  cleanup:
+    description:
+      - Designate whether the container is to be removed after execution. 
   command:
     description:
       - Command or list of commands to execute in the container when it starts.
